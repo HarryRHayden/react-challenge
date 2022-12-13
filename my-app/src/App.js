@@ -1,10 +1,11 @@
 import css from './App.module.css';
-import Sidebar from './components/Sidebar'
+import RenderingLists from './components/RenderingLists';
+
 
 function App() {
   return (
     <div className={css.App}>
-      <Sidebar />
+      <RenderingLists />
     </div>
   );
 }
